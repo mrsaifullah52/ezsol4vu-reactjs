@@ -3,7 +3,7 @@ import './App.scss';
 import Header from './Components/Header';
 
 // pages
-import Home from "./Home";
+import Home from "./Pages/Home";
 
 
 function App() {
@@ -27,6 +27,10 @@ function App() {
 
         <Route exact path="/about">
           <h1>about</h1>
+        </Route>
+
+        <Route exact>
+          <h1>404 Error</h1>
         </Route>
 
       </Switch>

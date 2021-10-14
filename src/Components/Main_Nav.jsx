@@ -1,19 +1,20 @@
 import React from 'react';
 
 // browser router
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 // icons 
-import {Home} from '@mui/icons-material'; 
+import Home from '@mui/icons-material/Home'; 
 
 const Main_Nav = ()=>{
   return(
     <nav>  
-      <ul> 
-        <li><Link to="/"><Home/>Home</Link></li>
-        <li><Link to="/services">Services</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/about">About</Link></li>
+      <ul>  
+        <li><NavLink to="/"><Home sx={{fontSize: 26}}/></NavLink></li>
+        <li><NavLink to="/products">Products</NavLink></li>
+        <li><NavLink to="/services">Services</NavLink></li>
+        <li><NavLink to="/contact">Contact</NavLink></li>
+        <li><NavLink to="/about">About</NavLink></li>
       </ul>
     </nav>
   );
