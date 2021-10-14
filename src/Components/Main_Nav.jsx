@@ -9,7 +9,7 @@ import {Home} from '@mui/icons-material';
 const Main_Nav = ()=>{
   return(
     <nav>  
-      <ul>
+      <ul> 
         <li><Link to="/"><Home/>Home</Link></li>
         <li><Link to="/services">Services</Link></li>
         <li><Link to="/contact">Contact</Link></li>
