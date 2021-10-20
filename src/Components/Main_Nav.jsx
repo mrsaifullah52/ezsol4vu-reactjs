@@ -11,10 +11,12 @@ const Main_Nav = ()=>{
     <nav>  
       <ul>  
         <li><NavLink to="/"><Home sx={{fontSize: 26}}/></NavLink></li>
-        <li><NavLink to="/products">Products</NavLink></li>
-        <li><NavLink to="/services">Services</NavLink></li>
-        <li><NavLink to="/contact">Contact</NavLink></li>
-        <li><NavLink to="/about">About</NavLink></li>
+        <li><NavLink to="/solutions">Solutions</NavLink></li>
+        <li><NavLink to="/handouts">Handouts</NavLink></li>
+        <li><NavLink to="/papers">Papers</NavLink></li>
+        <li><NavLink to="/onlinecourses">Online Courses</NavLink></li>
+        <li><NavLink to="/softwares">Softwares</NavLink></li>
+        <li><NavLink to="/more">More</NavLink></li>
       </ul>
     </nav>
   );
